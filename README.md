@@ -127,6 +127,9 @@ API
 `fetch(marker)`: Return the element at `params[marker]` or raise
 if the element is not present.
 
+`update(params)`: Add the contents of params to the components hash.
+Entries with matching keys are overwritten.
+
 Errors
 ------
 
